@@ -5,4 +5,6 @@ import "./index.css";
 
 const root = createRoot(document.querySelector("#root"));
 
-root.render(<App />);
+root.render(<App />,
+document.getElementById('root')
+);
